@@ -1,7 +1,5 @@
 $(document).ready(function () {
-  // ------------------------------
-  // CARGA DE TABLA
-  // ------------------------------
+
   $("#cargarDatos").click(function () {
     const tipo = $("#selector").val();
     const url = `https://jsonplaceholder.typicode.com/${tipo}`;
@@ -20,9 +18,7 @@ $(document).ready(function () {
     });
   });
 
-  // ------------------------------
-  // FORMULARIO USUARIOS
-  // ------------------------------
+
   if ($("#formUsuario").length) {
     $("#formUsuario").submit(function (e) {
       e.preventDefault();
@@ -57,9 +53,6 @@ $(document).ready(function () {
     });
   }
 
-  // ------------------------------
-  // FORMULARIO OTRO
-  // ------------------------------
   if ($("#formOtro").length) {
     $("#formOtro").submit(function (e) {
       e.preventDefault();
@@ -91,9 +84,7 @@ $(document).ready(function () {
     });
   }
 
-  // ------------------------------
-  // FORMULARIO PUBLICACION
-  // ------------------------------
+
   if ($("#formPublicacion").length) {
     $("#formPublicacion").submit(function (e) {
       e.preventDefault();

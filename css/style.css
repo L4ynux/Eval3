@@ -4,7 +4,7 @@ body {
   padding: 0;
 }
 
-/* Navegación tipo pestañas */
+/* Navegacion */
 .nav-tabs {
   display: flex;
   background-color: #eee;
